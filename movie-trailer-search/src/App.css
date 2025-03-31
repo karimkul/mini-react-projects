@@ -1,0 +1,60 @@
+.app {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #1e1e1e;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+.search-box {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+label {
+    font-size: 18px;
+    margin-right: 10px;
+}
+
+input {
+    width: 300px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    outline: none;
+    margin-right: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #ff4757;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+button:hover {
+    background-color: #e84118;
+}
+
+hr {
+    width: 100%;
+    margin: 20px 0;
+    border: 1px solid #444;
+}
+
+/* Style for ReactPlayer */
+.react-player {
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+    margin-top: 20px;
+}
