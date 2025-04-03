@@ -1,0 +1,75 @@
+.App {
+    font-family: sans-serif;
+}
+
+h2 {
+    color: #1565cc;
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+.list {
+    display: grid;
+    padding: 20px;
+    grid-template: repeat(3, 180px) / repeat(auto-fit, minmax(180px, 1fr));
+    grid-auto-flow: row;
+    grid-auto-rows: 180px;
+    gap: 30px;
+}
+
+.card {
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.card a {
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: rgba(144, 24, 242, 0.6);
+    color: #fff;
+    transition: 0.3s;
+}
+
+.details button {
+    border: none;
+    outline: none;
+    padding: 10px 20px;
+    color: #fff;
+    background-color: rgba(144, 24, 242, 0.8);
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.card a:hover,
+.details button:hover {
+    background-color: rgba(74, 8, 128, 0.8);
+}
+
+.details img {
+    width: 100px;
+}
+
+.details ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    margin-top: 20px;
+    list-style: none;
+    gap: 30px;
+}
+
+.details ul a {
+    text-decoration: none;
+    padding: 5px 10px;
+    background-color: rgba(242, 184, 24, 0.8);
+    color: #fff;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.details ul a:hover {
+    background-color: rgba(240, 212, 135, 0.8);
+}
